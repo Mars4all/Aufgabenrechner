@@ -13,7 +13,7 @@ window.addEventListener("load", function(){
             
             console.log(height2.value);
             console.log(weight2.value);
-            alert (bmi2);
+            alert ("Die Hypotenuse lautet: " + bmi2);
 
         });
 
@@ -37,7 +37,7 @@ window.addEventListener("load", function(){
             
             console.log(height3.value);
             console.log(weight3.value);
-            alert (bmi3n);
+            alert ("Die fehlende Katete ist: " + bmi3n);
 
         });
 
