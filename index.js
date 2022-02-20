@@ -1,3 +1,8 @@
+function NaNo(){
+    alert("Die Hypotenuse kann nicht kleiner sein als die Katete und Komma´s bitte mit . schreiben");
+}
+
+
 window.addEventListener("load", function(){
     
 
