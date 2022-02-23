@@ -20,14 +20,22 @@
             text-align: center;
             padding: 2%;
         }
+        h2{
+            text-align: center;
+            margin-top: -2;
+        }
         h3{
             text-align: center;
             padding: 1%;
             margin-top: 1rem;
         }
+        .Pointer{
+            cursor: pointer;
+        }
     </style>
 
-    <h1>Dreieck Berechnungen</h1>
+    <h1>Dreieck Berechnungen <br>"Rechtwinklig" </h1>
+    
     <h3>Rechtwinklig Hypotenuse</h3>
 
     <form class="Schrift">
@@ -40,7 +48,7 @@
     </form>    
 
     <h3>Rechtwinklig Katete</h3>
-     <p class="Schrift"; onclick="NaNo()">Info=klick hier</p>
+    <p class="Pointer" style="text-align: center;" onclick="NaNo()">Info=klick hier</p>
 
     <form class="Schrift">
         <label for="height3">Katete</label><br>
@@ -49,6 +57,34 @@
         <label for="weight3">Hypotenuse  </label><br>
         <input type="text" id="weight3" name="weight3"/><br>
         <button class ="card01" id="calculate3">Hypo Dreieck</button>
+    </form>    
+
+    <h3>Umfang</h3>
+    
+
+    <form class="Schrift">
+        <label for="height4"> Länge Katete1</label><br>
+        <input type="text" id="height4" name="height4"/>
+        <br>
+        <label for="weight4"> Länge Katete2  </label><br>
+        <input type="text" id="weight4" name="weight4"/><br>
+        
+        <label for="weight4anders">Länge Hypotenuse  </label><br>
+        <input type="text" id="weight4anders" name="weight4anders"/><br>
+        <button class ="card01" id="calculate4">Unfang Dreieck</button>
+    </form>    
+
+    <h3>Fläche Dreieck</h3>
+
+    <form class="Schrift">
+        <label for="height5"> Länge Katete1</label><br>
+        <input type="text" id="height5" name="height5"/>
+        <br>
+        <label for="weight5"> Länge Katete2  </label><br>
+        <input type="text" id="weight5" name="weight5"/><br>
+        
+        
+        <button class ="card01" id="calculate5">Unfang Dreieck</button>
     </form>    
     
 
