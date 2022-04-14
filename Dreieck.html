@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreieck</title>
+</head>
+<body>
+    <style>
+         body{
+            background-color: rgb(245, 245, 220);
+        }
+        .Schrift{
+            font-family: cursive;
+            text-align: center;
+            
+        }
+        h1{
+            text-align: center;
+            padding: 2%;
+        }
+        h2{
+            text-align: center;
+            margin-top: -2;
+        }
+        h3{
+            text-align: center;
+            padding: 1%;
+            margin-top: 1rem;
+        }
+        .Pointer{
+            cursor: pointer;
+        }
+        #img1 {
+        max-width: 35%;
+        max-height: 35%;
+        border-radius: 5%;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+        
+        border: solid rgb(0, 0, 0) 1px; 
+       }
+    </style>
+
+    <h1>Dreieck Berechnungen <br>"Rechtwinklig" </h1>
+
+    <div class="col Schrift">
+        <img src="Bild_Rechtwinkliges_Dreieck.PNG" id="img1" >
+    </div>
+    
+    <h3>Rechtwinklig Hypotenuse</h3>
+
+    <form class="Schrift">
+        <label for="height2">Katete1</label><br>
+        <input type="text" id="height2" name="height2"/>
+        <br>
+        <label for="weight2">Katete2  </label><br>
+        <input type="text" id="weight2" name="weight2"/><br>
+        <button class ="card01" id="calculate2">Hypo Dreieck</button>
+    </form>    
+
+    <h3>Rechtwinklig Katete</h3>
+    <p class="Pointer" style="text-align: center;" onclick="NaNo()">Info=klick hier</p>
+
+    <form class="Schrift">
+        <label for="height3">Katete</label><br>
+        <input type="text" id="height3" name="height3"/>
+        <br>
+        <label for="weight3">Hypotenuse  </label><br>
+        <input type="text" id="weight3" name="weight3"/><br>
+        <button class ="card01" id="calculate3">Hypo Dreieck</button>
+    </form>    
+
+    <h3>Umfang</h3>
+    
+
+    <form class="Schrift">
+        <label for="height4"> Länge Katete1</label><br>
+        <input type="text" id="height4" name="height4"/>
+        <br>
+        <label for="weight4"> Länge Katete2  </label><br>
+        <input type="text" id="weight4" name="weight4"/><br>
+        
+        <label for="weight4anders">Länge Hypotenuse  </label><br>
+        <input type="text" id="weight4anders" name="weight4anders"/><br>
+        <button class ="card01" id="calculate4">Unfang Dreieck</button>
+    </form>    
+
+    <h3>Fläche Dreieck</h3>
+
+    <form class="Schrift">
+        <label for="height5"> Länge Katete1</label><br>
+        <input type="text" id="height5" name="height5"/>
+        <br>
+        <label for="weight5"> Länge Katete2  </label><br>
+        <input type="text" id="weight5" name="weight5"/><br>
+        
+        
+        <button class ="card01" id="calculate5">Unfang Dreieck</button>
+    </form>    
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
