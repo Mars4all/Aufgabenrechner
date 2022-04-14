@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kugel</title>
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+	
+
+<body>
+    <style>
+        body{
+           background-color: rgb(245, 245, 220);
+       }
+       .Schrift{
+           font-family: cursive;
+           text-align: center;
+           
+       }
+       h1{
+           text-align: center;
+           padding: 2%;
+       }
+       h2{
+           text-align: center;
+           margin-top: -2;
+       }
+       h3{
+           text-align: center;
+           padding: 1%;
+           margin-top: 1rem;
+       }
+       .Pointer{
+           cursor: pointer;
+       }
+       
+   </style>
+
+   <h1 id ="test">Kugel <br> </h1>
+
+   
+   <h3 id="Ergebnis_flaeche" >Fläche</h3>
+  
+
+   <form class="Schrift">
+       <label for="height2">Radius </label><br>
+       <input type="text" id="radius_kreis" name="height2"/>
+       <br>
+       
+       <button class ="card01" id="flaeche">Fläche Kugel</button>
+   </form>    
+
+   <h3 >Volumen</h3>
+   <div id="Ergebnis_flaeche2">""</div>
+  
+
+   <form class="Schrift">
+       <label for="height3">Radius </label><br>
+       <input type="text" id="radius_kreis2" name="height2"/>
+       <br>
+       
+       <button class ="card01" id="Umfang">Umfang</button>
+   </form>  
+
+   
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="kugel.js"></script>
+</body>
+</html>
