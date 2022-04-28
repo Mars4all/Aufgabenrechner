@@ -1,0 +1,79 @@
+
+        h1{
+            text-align: center;
+            padding: 2%;
+        }
+        h3{
+            text-align: center;
+            padding: 1%;
+            margin-top: 2rem;
+            
+        }
+        body{
+            background-color: rgb(32, 15, 15);
+            color: rgb(211, 217, 223);
+        }
+        .Schrift{
+            font-family: cursive;
+            
+        }
+        .bg{
+            background-color: rgb(32, 15, 15);
+            color: rgb(211, 217, 223);
+        }
+
+        .container{
+            text-align: center;
+            padding: 2%;    
+        }
+
+        .container1{
+            text-align: center;
+            padding: 2%;  
+            font-weight: bolder;  
+            color: black;
+            height: 10vh;
+            margin-top: 3rem;
+        }
+
+       input{
+           text-align: center;
+       }
+
+       .col{
+            text-align: center;
+            margin-top: 2rem;
+       }
+
+       .schaltfläche {
+           border-radius: 25%;
+           text-align: center;
+       }
+
+       .Abstand_Schaltflaeche{
+           margin-top: 2rem;
+       }
+
+       .Operanten{
+            background-color: rgb(32, 15, 15);
+       }
+
+       .operanten_hintergrund{
+           background-color: rgb(255, 255, 255);
+           font-weight: bolder;
+           color: black;   
+       }
+
+       #rechenweg{
+           background-color: rgb(255, 255, 255);
+       }
+
+       #Erg{
+        background-color: rgb(173, 236, 130);
+       }
+        
+		
+
+        
+
+  
