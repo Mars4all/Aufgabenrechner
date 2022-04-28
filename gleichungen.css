@@ -36,8 +36,9 @@
             margin-top: 3rem;
         }
 
-       input{
+       input{  
            text-align: center;
+	   width: 75%;
        }
 
        .col{
